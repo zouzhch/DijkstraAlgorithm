@@ -18,9 +18,10 @@ Core Algorithm:
      
      So the process is below:
      
-     From the Node S, find its neighbours, deal with the neighbours one by one at the order of from the least cost to 
-     the highest cost.At each neighbour node, the cost to node S pluses the cost to a neighbour, then get the cost from 
-     the node S to the neighbour node. If the cost less than the vlaue on the cost table, replace this cost value, and 
-     record this node as the neighbour's parents on the parents table. Go on and calculate all the nodes, then got the 
-     least cost to all the nodes at the cost table and the parents node of each nodes which is on the path of the least 
-     cost, at the parents table.
+     From the Node S, find its neighbours, deal with the neighbours one by one at the order of from the least cost to the 
+     highest cost. At each neighbour node, the cost to node S pluses the cost to a neighbour, then get the cost from the 
+     node S to the neighbour node. If the cost less than the vlaue on the cost table, replace this cost value, and record 
+     this node as the neighbour's parents on the parents table. Go on and calculate all the nodes, then got the least cost 
+     value of all the nodes to the node S and the parents node of each nodes which is on the path of the least cost.
+
+![image](https://github.com/user-attachments/assets/b1cbadd6-fe4b-40bf-831a-eda2dd708118)
