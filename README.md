@@ -7,6 +7,7 @@
 Find the least cost of the path from Node S to Node E.
 
 Core Algorithm:
+
      Maintain 3 tables, one for neighbourhood: the key is a node,the value contains all the neighbour nodes and its cost to the node.
      
      One for cost: the key includes all the nodes, the value represents the present least cost to the node S. If there is no idea, 
